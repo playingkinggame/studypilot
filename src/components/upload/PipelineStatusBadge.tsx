@@ -16,6 +16,13 @@ export const PipelineStatusBadge: React.FC<PipelineStatusBadgeProps> = ({
 }) => {
   const getBadgeConfig = () => {
     switch (status) {
+      case 'uploading' as PipelineStatus:
+        return {
+          label: 'Uploading',
+          icon: Loader2,
+          animate: true,
+          color: 'bg-sky-500/10 text-sky-500 border-sky-500/20',
+        };
       case 'queued':
         return {
           label: 'Queued',
@@ -54,6 +61,14 @@ export const PipelineStatusBadge: React.FC<PipelineStatusBadgeProps> = ({
           label: 'Ingestion Failed',
           icon: AlertCircle,
           color: 'bg-red-500/10 text-red-500 border-red-500/20',
+        };
+      default:
+        // Unknown status must never crash the page.
+        return {
+          label: String(status ?? 'Processing'),
+          icon: Loader2,
+          animate: true,
+          color: 'bg-slate-100 dark:bg-slate-800 text-slate-500 border-slate-200 dark:border-slate-700',
         };
     }
   };

@@ -1,5 +1,6 @@
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import './index.css';
 import './lib/i18n';
 import { applyTheme, watchSystemTheme } from './store/useSettingsStore';
@@ -21,4 +22,4 @@ if (import.meta.env.DEV && 'serviceWorker' in navigator) {
   if ('caches' in window) caches.keys().then((keys) => keys.forEach((k) => caches.delete(k)));
 }
 
-createRoot(document.getElementById('root')!).render(<App />);
+createRoot(document.getElementById('root')!).render(<ErrorBoundary><App /></ErrorBoundary>);
