@@ -1,0 +1,236 @@
+{
+  "brand": {
+    "name": "StudyPilot",
+    "tagline": "AI Study & Career Copilot",
+    "description": "Upload documents, study with citation-backed RAG, master weak topics with SM-2 spaced repetition, and bridge skill gaps with AI career coaching."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "quickAsk": "Quick Ask",
+    "chat": "Chat & RAG",
+    "documents": "Documents",
+    "summaries": "Summaries",
+    "quizzes": "Quizzes",
+    "flashcards": "Flashcards",
+    "mindmap": "Mind Map",
+    "planner": "Study Planner",
+    "weakTopics": "Weak Topics",
+    "career": "Career Hub",
+    "eval": "RAG Evaluation",
+    "settings": "Settings",
+    "designSystem": "Design System",
+    "share": "Share Workspace",
+    "search": "Search or Jump (⌘K)",
+    "notifications": "Notifications",
+    "profile": "Profile"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again",
+    "export": "Export",
+    "import": "Import",
+    "filter": "Filter",
+    "search": "Search",
+    "copy": "Copy",
+    "copied": "Copied to clipboard",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "refresh": "Refresh",
+    "close": "Close",
+    "status": "Status",
+    "actions": "Actions",
+    "installApp": "Install App",
+    "offline": "Offline Mode — Cached data is being used"
+  },
+  "auth": {
+    "login": "Sign In",
+    "signup": "Create Account",
+    "logout": "Log Out",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot password?",
+    "continueWithGoogle": "Continue with Google",
+    "haveAccount": "Already have an account? Sign In",
+    "noAccount": "Don't have an account? Sign Up",
+    "heroTitle": "Master Any Subject. Land Your Dream Role.",
+    "heroSubtitle": "Transform lectures, textbooks, and job descriptions into personalized flashcards, mock interviews, and citation-backed mastery."
+  },
+  "onboarding": {
+    "step1Title": "What is your primary goal?",
+    "step1Desc": "Tailor StudyPilot to your learning objectives",
+    "step2Title": "What subjects or domains are you focused on?",
+    "step2Desc": "We'll preload smart concepts and starter templates",
+    "step3Title": "Select preferred interface language",
+    "step3Desc": "You can change this anytime from preferences",
+    "academic": "Ace College / University Exams",
+    "jobprep": "Land Tech Job / Skill-Gap Prep",
+    "cert": "Professional Certifications",
+    "getStarted": "Launch Workspace"
+  },
+  "documents": {
+    "title": "Document Vault",
+    "subtitle": "Upload textbooks, papers, slides, or links for citation-backed RAG",
+    "uploadButton": "Upload Document",
+    "addLink": "Add Link",
+    "dropzonePrompt": "Drag & drop PDF, DOCX, PPTX, or text files here",
+    "dropzoneSupport": "Supports PDF, DOCX, PPTX, TXT, MD up to 50MB",
+    "webUrl": "Web URL",
+    "youtubeUrl": "YouTube Video URL",
+    "fetchTranscript": "Fetch Transcript",
+    "pipeline": {
+      "queued": "Queued",
+      "parsing": "Parsing",
+      "chunking": "Chunking",
+      "embedding": "Embedding",
+      "ready": "Ready",
+      "failed": "Failed"
+    },
+    "columns": {
+      "name": "Document Name",
+      "type": "Type",
+      "pages": "Pages / Time",
+      "chunks": "Chunks",
+      "status": "Status",
+      "date": "Added Date"
+    },
+    "actions": {
+      "chat": "Chat With This",
+      "summarize": "Summarize",
+      "quiz": "Generate Quiz",
+      "flashcards": "Make Flashcards",
+      "mindmap": "Create Mind Map"
+    }
+  },
+  "chat": {
+    "title": "Citation-Backed RAG Chat",
+    "placeholder": "Ask anything from your documents... (e.g. Explain 2PC protocol)",
+    "scopeAll": "All Documents",
+    "scopeSelected": "Selected Docs",
+    "model": "Model",
+    "stop": "Stop Generating",
+    "regenerate": "Regenerate",
+    "eli5": "ELI5",
+    "student": "Student",
+    "expert": "Expert",
+    "traceTitle": "Agent Reasoning & Retrieval Trace",
+    "retrievalInspector": "Retrieval Inspector (BM25 + Vector + Reranker)",
+    "memoryActive": "Using Personal Memory",
+    "notFound": "Not found in your uploaded documents.",
+    "notFoundHint": "Try broadening your query, uploading relevant docs, or asking general knowledge:",
+    "askGeneral": "Answer from General Knowledge (Uncited)",
+    "citations": "Citations",
+    "confidence": "Confidence"
+  },
+  "summaries": {
+    "title": "AI Summaries & Notes",
+    "subtitle": "Generate multi-level syntheses with cited sections",
+    "short": "Short Abstract",
+    "detailed": "Executive Synthesis",
+    "bulletNotes": "Structured Notes",
+    "keyTerms": "Glossary & Key Terms",
+    "saveToNotes": "Save to Workspace Notes"
+  },
+  "quizzes": {
+    "title": "Interactive Quizzes",
+    "subtitle": "Test your retention with instant scoring and citation breakdowns",
+    "generateNew": "Generate Quiz",
+    "questions": "Questions",
+    "difficulty": "Difficulty",
+    "timer": "Timer",
+    "submitAnswer": "Confirm Answer",
+    "nextQuestion": "Next Question",
+    "score": "Your Score",
+    "reviewWrong": "Review Mistakes",
+    "makeFlashcards": "Make Flashcards from Mistakes"
+  },
+  "flashcards": {
+    "title": "Spaced Repetition Decks",
+    "subtitle": "Optimized recall intervals powered by the SuperMemo SM-2 algorithm",
+    "decks": "Decks",
+    "dueToday": "Due Today",
+    "startReview": "Review Due Cards",
+    "again": "Again",
+    "hard": "Hard",
+    "good": "Good",
+    "easy": "Easy",
+    "flip": "Click or Space to Flip",
+    "addCard": "Add Card",
+    "generateDeck": "Generate Cards from Document"
+  },
+  "mindmap": {
+    "title": "Interactive Mind Map",
+    "subtitle": "Visual knowledge graphs synthesized automatically from documents",
+    "exportPng": "Export Image",
+    "askNode": "Ask Chat About Node",
+    "makeDeckFromBranch": "Generate Flashcards from Branch"
+  },
+  "planner": {
+    "title": "Personalized Study Plan",
+    "subtitle": "Adaptive schedule balanced across exams, weak spots, and daily capacity",
+    "examDate": "Target Exam Date",
+    "dailyHours": "Daily Study Hours",
+    "generate": "Generate Plan",
+    "reschedule": "Reschedule Missed Tasks",
+    "tasksCompleted": "Tasks Completed"
+  },
+  "weakTopics": {
+    "title": "Weak-Topic Diagnostic",
+    "subtitle": "AI-detected knowledge gaps based on quiz and flashcard performance",
+    "accuracy": "Retention Accuracy",
+    "recommendedAction": "Recommended Practice",
+    "practiceQuiz": "Practice Quiz",
+    "reviewCards": "Review Flashcards",
+    "askChat": "Ask Chat to Explain"
+  },
+  "career": {
+    "title": "Career Acceleration Hub",
+    "subtitle": "Match your resume to target roles, quantify achievements, and mock interview with voice",
+    "tabs": {
+      "analyzer": "Skill-Gap Analyzer",
+      "rewriter": "Bullet Rewriter",
+      "roadmap": "Learning Roadmap",
+      "interview": "Voice Mock Interview"
+    },
+    "matchScore": "ATS Match Score",
+    "skills": {
+      "matched": "Strongly Matched",
+      "partial": "Partial Coverage",
+      "missing": "Critical Gaps"
+    },
+    "voice": {
+      "startSpeaking": "Record Answer",
+      "stopSpeaking": "Finish & Evaluate",
+      "listening": "Listening to your response...",
+      "wpm": "Pace (WPM)",
+      "fillers": "Filler Words",
+      "rubric": "Evaluation Rubric"
+    }
+  },
+  "eval": {
+    "title": "RAG Retrieval & Evaluation Benchmark",
+    "subtitle": "Empirical ground-truth metrics comparing BM25, Dense Vector, and Cross-Encoder Rerankers",
+    "runEval": "Run Benchmark Test Suite",
+    "faithfulness": "Faithfulness",
+    "relevance": "Answer Relevance",
+    "precision": "Context Precision",
+    "recall": "Context Recall"
+  },
+  "settings": {
+    "title": "Workspace & User Settings",
+    "profile": "Profile & Account",
+    "preferences": "Model & Language Preferences",
+    "retrieval": "RAG Retrieval Parameters",
+    "memory": "Persistent Memory",
+    "data": "Data Management & Export"
+  }
+}
